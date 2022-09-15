@@ -1,3 +1,8 @@
+#Script en Python que consulta el API de Pokemon
+#Para listar los nombres de Pokemon pero se le agregó
+#interacción para que listaras más pokemons según se vaya requiriendo.
+#Contribuyo: Fermín Isaí Estrada Vera
+#Fecha: 15 de septiembre del 2022
 import requests
 #
 def get_pokemons (url='http://pokeapi.co/api/v2/pokemon-form/', offset=0):
